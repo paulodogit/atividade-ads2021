@@ -5,16 +5,15 @@ console.log("")
 pacote=require("readline-sync")
 a=pacote.questionFloat('informe o numero  ')
 i=0
-result=0
+cont=0
 
 function primos1() {
-for (i=2; i<=a/2;i++) {
+for (i=1; i<=a;i++) {
     if (a%i==0) {
-        result++;
-        break;
+        cont++;
     }
 }
-if (result==0) {
+if (cont==2) {
     console.log(`${a} é um número primo`)
 } else {
     console.log(`${a} não é um número primo`)

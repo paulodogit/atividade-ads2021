@@ -2,63 +2,20 @@ console.log("")
 console.log("----Calcule e mostre os primeiros números primos.----");
 console.log("")
 
-var readline = require("readline-sync");
-var num = 0;
-var contador = 0;
+pacote=require('readline-sync')
 
-
-    num = parseInt(readline.question("Informe um numero: "));
-
-function primeiroNum(){
-    for(i = 1; i <= num; i ++){
-        if(num % i == 0){
-            contador ++;
+function mostrarprimos(num) {
+    cont=0
+    for (var i=1; i<=num; i++) {
+        if (num%i==0) {
+            cont++
         }
     }
-    if(contador == 2){
-        console.log(num + " é primo");
-    }else{
-        console.log(num + " não é primo");
+    if (cont==2) {
+        console.log(`${num} é primo`)
     }
 }
-primeiroNum();
-    
-    var num = 0;
-    var contador = 0;
-    
-    console.log("")
-    num = parseInt(readline.question("Informe um numero: "));
-
-function segundoNum(){
-    for(i = 1; i <= num; i ++){
-        if(num % i == 0){
-            contador ++;
-        }
-    }
-    if(contador == 2){
-        console.log(num + " é primo");
-    }else{
-        console.log(num + " não é primo");
-    }
+nume=pacote.questionFloat('informe um numero  ')
+for (var f=1; f<=nume; f++) {
+    mostrarprimos(f)
 }
-segundoNum();
-    
-    var num = 0;
-    var contador = 0;
-    
-    console.log("")
-    num = parseInt(readline.question("Informe um numero: "));
-
-function terceiroNum(){
-    for(i = 1; i <= num; i ++){
-        if(num % i == 0){
-            contador ++;
-        }
-    }
-    if(contador == 2){
-        console.log(num + " é primo");
-    }else{
-        console.log(num + " não é primo");
-    }
-}
-terceiroNum();
