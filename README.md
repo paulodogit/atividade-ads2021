@@ -1,4 +1,3 @@
 # atividade-ads2021
-contêm 3 listas e o projeto 
-ATENÇÃO, ao executar o programa, executar primeiro o programa comeco.js e seguir as instruções presentes no mesmo.
-Certifique-se de sempre ler as instruções, principalmente de como encerrar o programa quando quiser.
+os arquivos soltos e as pastas listas 1, 2 e 3 são o trabalho final, a pasta "todas as listas para avaliação individual" são as 3 listas dentro da pasta para que o professor avalie as questões nelas inclusas.
+Para que o trabalho final rode sem problemas, é necessário que os arquivos soltos e as pastas listas 1, 2 e 3 estejam todas juntas (do jeito que está atualmente, armazená-las todas juntas do jeito que está, caso deseje colocá-las em uma pasta).
